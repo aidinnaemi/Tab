@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import redis
-import os
 redis = redis.Redis('localhost')
 id = input("Enter Tabchi ID (1,2,3,4,5,...) : ")
 sudo = input("Enter Full Sudo ID : ")
